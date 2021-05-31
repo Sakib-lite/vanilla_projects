@@ -25,7 +25,7 @@ btn.nextElementSibling? btn.nextElementSibling.remove():''
      btn.insertAdjacentHTML('afterend',markup)
 
    }catch(err) {
-        console.error(err)
+        alert(err)
    }
 
 
